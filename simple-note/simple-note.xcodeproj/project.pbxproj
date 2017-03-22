@@ -505,6 +505,7 @@
 				30EBF2561E7FC094007093E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30EBF2571E7FC094007093E1 /* Build configuration list for PBXNativeTarget "simple-noteTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +514,7 @@
 				30EBF2591E7FC094007093E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30EBF25A1E7FC094007093E1 /* Build configuration list for PBXNativeTarget "simple-noteUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +523,7 @@
 				30EBF25C1E7FC094007093E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
