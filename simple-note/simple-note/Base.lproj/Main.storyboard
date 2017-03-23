@@ -49,14 +49,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6FW-D9-Gqi">
-                                <rect key="frame" x="144.5" y="541" width="31" height="27"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="SAVE"/>
-                                <connections>
-                                    <action selector="saveBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LyM-Kd-fI4"/>
-                                </connections>
-                            </button>
                             <view hidden="YES" alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ffD-er-xcT">
                                 <rect key="frame" x="76.5" y="220" width="167" height="128"/>
                                 <subviews>
@@ -97,6 +89,14 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6FW-D9-Gqi">
+                                <rect key="frame" x="273" y="20" width="31" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="SAVE"/>
+                                <connections>
+                                    <action selector="saveBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LyM-Kd-fI4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -105,14 +105,14 @@
                             <constraint firstItem="yJz-d9-3aK" firstAttribute="top" secondItem="G9O-Zn-JgS" secondAttribute="bottom" constant="3" id="6z4-Bl-zaK"/>
                             <constraint firstItem="yJz-d9-3aK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="73r-9H-n0O"/>
                             <constraint firstItem="TPX-tL-32y" firstAttribute="top" secondItem="yJz-d9-3aK" secondAttribute="bottom" constant="3" id="9aT-Pg-CiS"/>
-                            <constraint firstItem="6FW-D9-Gqi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Bfc-8I-DI6"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TPX-tL-32y" secondAttribute="bottom" constant="20" id="JG0-H1-zea"/>
-                            <constraint firstAttribute="bottom" secondItem="6FW-D9-Gqi" secondAttribute="bottom" id="LtV-1H-5xC"/>
                             <constraint firstItem="yJz-d9-3aK" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Ocx-ej-YzF"/>
                             <constraint firstItem="7HZ-cv-9e6" firstAttribute="top" secondItem="yJz-d9-3aK" secondAttribute="bottom" constant="3" id="Rab-6C-yYN"/>
                             <constraint firstItem="yJz-d9-3aK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SO2-eY-u6o"/>
+                            <constraint firstItem="6FW-D9-Gqi" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="TuY-In-oID"/>
                             <constraint firstItem="ffD-er-xcT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wh3-5u-XmM"/>
                             <constraint firstItem="TPX-tL-32y" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Yaj-m8-cBO"/>
+                            <constraint firstItem="6FW-D9-Gqi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="at3-7P-Hmy"/>
                             <constraint firstItem="TPX-tL-32y" firstAttribute="top" secondItem="G9O-Zn-JgS" secondAttribute="bottom" constant="8" id="flY-Rm-JCY"/>
                             <constraint firstItem="7HZ-cv-9e6" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="pn9-bh-xwd"/>
                             <constraint firstItem="TPX-tL-32y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ptv-8o-Mqz"/>
