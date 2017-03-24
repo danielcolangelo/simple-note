@@ -24,8 +24,7 @@
 		301152781E83A2F5000FF88B /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301152661E83A2F5000FF88B /* IQToolbar.swift */; };
 		301152791E83A2F5000FF88B /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301152671E83A2F5000FF88B /* IQUIView+IQKeyboardToolbar.swift */; };
 		3011527A1E83A2F5000FF88B /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 301152691E83A2F5000FF88B /* IQKeyboardManager.bundle */; };
-		303E79E81E850FBB004F50BF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303E79E71E850FBB004F50BF /* Media.xcassets */; };
-		303E79EA1E8510AA004F50BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303E79E91E8510AA004F50BF /* Images.xcassets */; };
+		30BFCAE21E8515E100F7D9FD /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BFCAE11E8515E100F7D9FD /* Media.xcassets */; };
 		30EBF2301E7FC094007093E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EBF22F1E7FC094007093E1 /* AppDelegate.swift */; };
 		30EBF2321E7FC094007093E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EBF2311E7FC094007093E1 /* ViewController.swift */; };
 		30EBF2351E7FC094007093E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30EBF2331E7FC094007093E1 /* Main.storyboard */; };
@@ -70,8 +69,7 @@
 		301152661E83A2F5000FF88B /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
 		301152671E83A2F5000FF88B /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
 		301152691E83A2F5000FF88B /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
-		303E79E71E850FBB004F50BF /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		303E79E91E8510AA004F50BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		30BFCAE11E8515E100F7D9FD /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		30EBF22C1E7FC094007093E1 /* simple-note.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "simple-note.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30EBF22F1E7FC094007093E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30EBF2311E7FC094007093E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -203,10 +201,9 @@
 				30EBF22F1E7FC094007093E1 /* AppDelegate.swift */,
 				30EBF2311E7FC094007093E1 /* ViewController.swift */,
 				30EBF2331E7FC094007093E1 /* Main.storyboard */,
-				303E79E71E850FBB004F50BF /* Media.xcassets */,
+				30BFCAE11E8515E100F7D9FD /* Media.xcassets */,
 				30EBF2381E7FC094007093E1 /* LaunchScreen.storyboard */,
 				30EBF23B1E7FC094007093E1 /* Info.plist */,
-				303E79E91E8510AA004F50BF /* Images.xcassets */,
 			);
 			path = "simple-note";
 			sourceTree = "<group>";
@@ -337,10 +334,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				303E79E81E850FBB004F50BF /* Media.xcassets in Resources */,
 				30EBF23A1E7FC094007093E1 /* LaunchScreen.storyboard in Resources */,
-				303E79EA1E8510AA004F50BF /* Images.xcassets in Resources */,
 				3011527A1E83A2F5000FF88B /* IQKeyboardManager.bundle in Resources */,
+				30BFCAE21E8515E100F7D9FD /* Media.xcassets in Resources */,
 				30EBF2351E7FC094007093E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -535,7 +531,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Danny Colangelo (LP9W94WMK2)";
 				DEVELOPMENT_TEAM = 7HD2PKBKCF;
 				INFOPLIST_FILE = "simple-note/Info.plist";
@@ -554,7 +549,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Danny Colangelo (7HD2PKBKCF)";
 				DEVELOPMENT_TEAM = 7HD2PKBKCF;
 				INFOPLIST_FILE = "simple-note/Info.plist";
