@@ -24,10 +24,11 @@
 		301152781E83A2F5000FF88B /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301152661E83A2F5000FF88B /* IQToolbar.swift */; };
 		301152791E83A2F5000FF88B /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301152671E83A2F5000FF88B /* IQUIView+IQKeyboardToolbar.swift */; };
 		3011527A1E83A2F5000FF88B /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 301152691E83A2F5000FF88B /* IQKeyboardManager.bundle */; };
+		303E79E81E850FBB004F50BF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303E79E71E850FBB004F50BF /* Media.xcassets */; };
+		303E79EA1E8510AA004F50BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303E79E91E8510AA004F50BF /* Images.xcassets */; };
 		30EBF2301E7FC094007093E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EBF22F1E7FC094007093E1 /* AppDelegate.swift */; };
 		30EBF2321E7FC094007093E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EBF2311E7FC094007093E1 /* ViewController.swift */; };
 		30EBF2351E7FC094007093E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30EBF2331E7FC094007093E1 /* Main.storyboard */; };
-		30EBF2371E7FC094007093E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30EBF2361E7FC094007093E1 /* Assets.xcassets */; };
 		30EBF23A1E7FC094007093E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30EBF2381E7FC094007093E1 /* LaunchScreen.storyboard */; };
 		30EBF2451E7FC094007093E1 /* simple_noteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EBF2441E7FC094007093E1 /* simple_noteTests.swift */; };
 		30EBF2501E7FC094007093E1 /* simple_noteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EBF24F1E7FC094007093E1 /* simple_noteUITests.swift */; };
@@ -69,11 +70,12 @@
 		301152661E83A2F5000FF88B /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
 		301152671E83A2F5000FF88B /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
 		301152691E83A2F5000FF88B /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		303E79E71E850FBB004F50BF /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		303E79E91E8510AA004F50BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		30EBF22C1E7FC094007093E1 /* simple-note.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "simple-note.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30EBF22F1E7FC094007093E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30EBF2311E7FC094007093E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30EBF2341E7FC094007093E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		30EBF2361E7FC094007093E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30EBF2391E7FC094007093E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30EBF23B1E7FC094007093E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30EBF2401E7FC094007093E1 /* simple-noteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simple-noteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -201,9 +203,10 @@
 				30EBF22F1E7FC094007093E1 /* AppDelegate.swift */,
 				30EBF2311E7FC094007093E1 /* ViewController.swift */,
 				30EBF2331E7FC094007093E1 /* Main.storyboard */,
-				30EBF2361E7FC094007093E1 /* Assets.xcassets */,
+				303E79E71E850FBB004F50BF /* Media.xcassets */,
 				30EBF2381E7FC094007093E1 /* LaunchScreen.storyboard */,
 				30EBF23B1E7FC094007093E1 /* Info.plist */,
+				303E79E91E8510AA004F50BF /* Images.xcassets */,
 			);
 			path = "simple-note";
 			sourceTree = "<group>";
@@ -334,8 +337,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303E79E81E850FBB004F50BF /* Media.xcassets in Resources */,
 				30EBF23A1E7FC094007093E1 /* LaunchScreen.storyboard in Resources */,
-				30EBF2371E7FC094007093E1 /* Assets.xcassets in Resources */,
+				303E79EA1E8510AA004F50BF /* Images.xcassets in Resources */,
 				3011527A1E83A2F5000FF88B /* IQKeyboardManager.bundle in Resources */,
 				30EBF2351E7FC094007093E1 /* Main.storyboard in Resources */,
 			);
@@ -530,6 +534,8 @@
 		30EBF2551E7FC094007093E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Danny Colangelo (LP9W94WMK2)";
 				DEVELOPMENT_TEAM = 7HD2PKBKCF;
 				INFOPLIST_FILE = "simple-note/Info.plist";
@@ -547,6 +553,8 @@
 		30EBF2561E7FC094007093E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Danny Colangelo (7HD2PKBKCF)";
 				DEVELOPMENT_TEAM = 7HD2PKBKCF;
 				INFOPLIST_FILE = "simple-note/Info.plist";
